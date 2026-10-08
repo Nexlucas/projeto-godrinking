@@ -1,0 +1,24 @@
+import { Image, Text, View } from "react-native"
+import { ButtonPrimary } from "../../components/ButtonPrimary"
+import { ButtonOutline } from "../../components/ButtonOutline"
+import logo from '../../assets/images/logo.png'
+import { style } from "./style"
+import{ useFonts } from 'expo-font'
+import { fonts } from "../../themes/fonts"
+
+export const StartScreen = () => {
+
+    useFonts({
+        Oswald: require("../../assets/font/Oswald-VariableFont_wght.ttf")
+    });
+    
+    return(
+        <View style={style.containerStartScreen}>
+            <Image source={logo}/>
+
+            <Text style={style.textWelcome}>Seu app para comprar energéticos de forma rápida, prática e segura. Encontre suas marcas favoritas e receba onde estiver.</Text>
+            <ButtonPrimary title="Entrar"/>
+            <ButtonOutline title="Cadastrar"/>
+        </View>
+    )
+}
