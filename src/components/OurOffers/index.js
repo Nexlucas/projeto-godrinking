@@ -8,7 +8,8 @@ export const OurOffers = () => {
     return(
         <View>
             <Text style={styles.textOurOffers}>Nossas <Text style={styles.textHighlight}>Ofertas</Text></Text>
-            <ScrollView horizontal>
+
+            <ScrollView contentContainerStyle={styles.scrollContent} horizontal>
                 <Image source={card1}/>
                 <Image source={card2}/>
                 <Image source={card3}/>

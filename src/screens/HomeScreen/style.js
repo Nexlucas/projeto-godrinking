@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: colors.colorDarkPurple,
         gap: 40,
+        paddingLeft:20
     },
     logoHome:{
         height: 55,
