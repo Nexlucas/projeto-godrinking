@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     textHighlight:{
         color: colors.colorHorDrink
     },
-    scrollContent:{
-        gap: 15
+    scrollView:{
+        gap: 10
     }
 })
