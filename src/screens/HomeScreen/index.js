@@ -3,6 +3,7 @@ import { View } from "react-native"
 import { OurOffers } from "../../components/OurOffers"
 import logo from '../../assets/images/logo.png'
 import { styles } from "./style"
+import { AvailableSizes } from "../../components/AvailableSizes"
 
 export const HomeScreen = () => {
     return(
@@ -10,6 +11,7 @@ export const HomeScreen = () => {
 
             <Image source={logo} style={styles.logoHome}/>
             <OurOffers/>
+            <AvailableSizes/>
             
         </View>
     )

@@ -1,6 +1,7 @@
 export const colors = {
     colorDeepMagenta: '#B6209C',
     colorHorDrink: '#F73586',
+    colorVibrantPink: '#C531D0',
 
     colorVibrantViolet: '#5B00AA',
     colorRoyalPurple: '#7600B4',
