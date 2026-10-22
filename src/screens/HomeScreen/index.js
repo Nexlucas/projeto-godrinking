@@ -1,4 +1,4 @@
-import { Image } from "react-native"
+import { Image, ScrollView } from "react-native"
 import { View } from "react-native"
 import { OurOffers } from "../../components/OurOffers"
 import logo from '../../assets/images/logo.png'
@@ -8,12 +8,11 @@ import { OurHighlights } from "../../components/OurHighlights"
 
 export const HomeScreen = () => {
     return(
-        <View style={styles.containerHomeScreen}>
-
+        <ScrollView contentContainerStyle={styles.containerHomeScreen}>
             <Image source={logo} style={styles.logoHome}/>
             <OurOffers/>
             <AvailableSizes/>
             <OurHighlights/>
-        </View>
+        </ScrollView>
     )
 }
