@@ -9,7 +9,9 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: colors.colorVibrantPink,
         borderRadius: 13,
-        backgroundColor: "#270053"
+        backgroundColor: "#270053",
+        width: 185,
+        alignItems: "center"
     },
     imgProduct:{
         width: 50,
