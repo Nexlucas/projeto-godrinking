@@ -6,10 +6,10 @@ import { style } from "./style"
 export const ProductsScreen = () => {
     return(
         <ScrollView contentContainerStyle={style.containerProductsScreen}>
-            <Image source={logo}/>
+            <Image source={logo} style={style.imgLogo}/>
 
             <View>
-                <TextInput/>
+                <TextInput style={style.input}/>
                 <Image source={filterIcon}/>
             </View>
         </ScrollView>
